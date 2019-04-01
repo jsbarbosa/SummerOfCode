@@ -8,25 +8,17 @@ Please use a succinct title that describes your proposal. Do not include the wor
 - Email: juansebastian.coy@gmail.com
 - GitHub: jsbarbosa
 
-I am a last year physics and chemistry undergraduate student, with experience on C and Python, as open-source tools for the development of knowledge. Among my passions are: physical computing (code that physically interacts with surroundings e.g: microcontrollers, Raspberry), popular science in which I love to use computer simulations to show that there is plenty of phenomena that can be studied within a computer, software development to simplify everyday tasks and physics itself. 
+I am a last year physics and chemistry undergraduate student, with experience on C and Python, as open-source tools for the development of knowledge. Among my passions are: physical computing (code that physically interacts with surroundings e.g: microcontrollers, Raspberry), popular science in which I love to use computer simulations to show that there is plenty of phenomena that can be studied within a computer, software development to simplify everyday tasks and physics itself.
 
 ### The programmer
 
-I have been programming for quite a while now. I first started with a Lego Mindstorm, later I moved to Microsoft Excel Macros (VB) at the end of my high school. At college I used Java in my first semester, in second I met Python and it was love at first sight, I have not stopped using it eversince. At that very moment I moved from Windows to Ubuntu. At 6th semester I was introduced to C, and although is not as easy to use / staight forward as Python, its beauty lays in its power and speed. After that I became Junior Teacher Assistant for the Computational Methods class for two straight years.
+I have been programming for quite a while now. I first started with a Lego Mindstorm, later I moved to Microsoft Excel Macros (VB) at the end of my high school. At college I used Java in my first semester, in second I met Python and it was love at first sight, I have not stopped using it ever since. At that very moment I moved from Windows to Ubuntu. At 6th semester I was introduced to C, and although is not as easy to use / straight forward as Python, its beauty is found in its power and speed. After that I became Junior Teacher Assistant for the [Computational Methods class](https://github.com/ComputoCienciasUniandes/MetodosComputacionales) for two straight years, a course where we study numerical methods to solve ODEs, PDEs, integrals, derivatives and to find the solutions to systems of equations. Most (if not all) of my coding is freely available in [GitHub](http://www.github.com/jsbarbosa).
 
-Most (if not all) of my coding is freely avaible in [GitHub](http://www.github.com/jsbarbosa)
+I think Python is the dream language, it is easy to use, and is as readable as pseudocode. Python is supported by a huge community -that I have found to be really friendly and ready to help-, it has literally hundred of thousands of modules and libraries that make it the perfect definition of a General Purpose Language. Python is as powerful for statistics as R, it only takes a `import pandas as pd`, and with numerical calculations NumPy, and SciPy make it hard for MatLab to take any advantage. Off course symbolic calculations are not unique to Mathematica, thanks to the highly advanced SymPy module, for which many people around the world are thankful for. And best of all, Python does all of these for free, opening a universe of endless possibilities for which anyone, anywhere can code.
 
-In your project proposal let us know about your programming experience. Don't worry if you don't know SymPy or git. Many of our students start fresh. We will teach you what you need to know.
+When it comes to scripting, my favorite IDE is Atom, as it is highly customizable, supports almost every programming language, and has a nice GUI (I have also used Spyder and Geany). For exploration and presentation of results, Jupyter notebooks are the best.
 
-    What platform do you use to code? What editor do you prefer and why?
-
-    What is your experience programming? Tell us about something you have created.
-
-    What is your experience with Python? What are your favorite features of Python that are lacking in most other common programming languages? What, in your opinion, is the most advanced Python language feature or standard library functionality that you have used?
-
-    What is your favorite feature of SymPy? Demonstrate it here with a cool example.
-
-    Have you ever used git or another version control system?
+I have used SymPy to find solutions to systems of equations, to process mathematical expressions (e.g. integrate, gradients, simplify) and export the result with `sympy.latex()`. SymPy has helped me on multiple classes such as Solid State Physics, Quantum Mechanics and Classical Mechanics. As a result of my classical mechanics and Computational Methods classes and I implemented a demonstration project, in which I used SymPy to obtain the equations of movement for a [double pendulum](https://github.com/ComputoCienciasUniandes/Demonstrations/tree/master/DoublePendulum) (Lagrangian formalism), equations are then solved numerically, and an animation of the position in time is generated using Matplotlibs animation module. Each step to obtain the equations of movement is detailed and explained but mathematical expressions are generated inline by SymPy. Analogous demonstrations were made for single springs pendulums, projectiles and a model of the solar system (ten bodies, with information from Horizons). A $N log N$ algorithm (Barnes and Hut) for gravitational systems with its visualization module was written by me on 2017 by the name of [astrohut](https://jsbarbosa.github.io/astrohut/) in C with Python binders for the heavy duty functions. For ODEs a module called [rippleTank](https://jsbarbosa.github.io/rippleTank/) was written the same year with the objective of simplifying the studies of wave interactions in ripple tanks.  
 
 You and your project
 
