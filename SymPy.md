@@ -8,7 +8,7 @@ Please use a succinct title that describes your proposal. Do not include the wor
 - Email: juansebastian.coy@gmail.com
 - GitHub: jsbarbosa
 
-I am a last year physics and chemistry undergraduate student, with experience on C and Python, as open-source tools for the development of knowledge. Among my passions are: physical computing (code that physically interacts with surroundings e.g: microcontrollers, Raspberry), popular science in which I love to use computer simulations to show that there is plenty of phenomena that can be studied within a computer, software development to simplify everyday tasks and physics its self. 
+I am a last year physics and chemistry undergraduate student, with experience on C and Python, as open-source tools for the development of knowledge. Among my passions are: physical computing (code that physically interacts with surroundings e.g: microcontrollers, Raspberry), popular science in which I love to use computer simulations to show that there is plenty of phenomena that can be studied within a computer, software development to simplify everyday tasks and physics itself. 
 
 <Short bio / overview of your background>
 
