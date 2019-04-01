@@ -14,7 +14,7 @@ I am a last year physics and chemistry undergraduate student, with experience on
 
 I have been programming for quite a while now. I first started with a Lego Mindstorm, later I moved to Microsoft Excel Macros (VB) at the end of my high school. At college I used Java in my first semester, in second I met Python and it was love at first sight, I have not stopped using it eversince. At that very moment I moved from Windows to Ubuntu. At 6th semester I was introduced to C, and although is not as easy to use / staight forward as Python, its beauty lays in its power and speed. After that I became Junior Teacher Assistant for the Computational Methods class for two straight years.
 
-Most (if not all) of my coding is freely avaible in [GitHub](www.github.com/jsbarbosa)
+Most (if not all) of my coding is freely avaible in [GitHub](http://www.github.com/jsbarbosa)
 
 In your project proposal let us know about your programming experience. Don't worry if you don't know SymPy or git. Many of our students start fresh. We will teach you what you need to know.
 
