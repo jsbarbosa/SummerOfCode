@@ -41,4 +41,10 @@ Answer the following questions in your proposal:
     Please do not verbatim copy text from the ideas page, or from other people's discussions about your project, but rewrite it in your own words. If you include any significant text or code from another source in your application, it must be accompanied with a proper citation. All papers or references that you use or plan to use must also be cited. Put all this in a "References" section at the bottom of your application. Copying text without citation is plagiarism and will result in your application being rejected.
 
 You do not need to format your application as a question/answer format for the above questions, but we expect to see all of the above questions answered in your application somewhere.
-Patch requirement
+### Patch requirement
+- https://github.com/sympy/sympy/issues/4886
+- https://github.com/sympy/sympy/issues/5090 **
+- https://github.com/sympy/sympy/issues/6388
+- https://github.com/sympy/sympy/issues/6835
+- https://github.com/sympy/sympy/issues/6919 ***
+- https://github.com/sympy/sympy/issues/11197 
