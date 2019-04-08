@@ -21,30 +21,29 @@ When it comes to scripting, my favorite IDE is Atom, as it is highly customizabl
 I have used SymPy to find solution to equation systems, process mathematical expressions (e.g. integrate, gradients, simplify) and export results with `sympy.latex()`. SymPy has become one of my favorite tools, as it helped me on multiple classes, such as Solid State Physics, Quantum Mechanics and Classical Mechanics throughout my career. As a result of my Classical Mechanics and Computational Methods classes, I implemented a demonstration project, for which I used SymPy to obtain the equations of motion for a [double pendulum](https://github.com/ComputoCienciasUniandes/Demonstrations/tree/master/DoublePendulum) with Lagrangian formalism, which were then solved numerically and resulted in an animation of the position in time, which in turn was generated using the Matplotlibs animation module. Each step to obtain the equations of movement was detailed and explained in the code, but mathematical expressions were generated inline by SymPy. Also, analogous demonstrations were made for single springs pendulums, projectiles (with force drag) and a model of the solar system (ten bodies, with information from Horizons). Besides, a Nlog(N) algorithm (Barnes and Hut) for gravitational systems with its visualization module was written by me on 2017 by the name of [astrohut](https://jsbarbosa.github.io/astrohut/) in C, with Python binders for the heavy duty functions. Lastly, for PDEs, a module called [rippleTank](https://jsbarbosa.github.io/rippleTank/) was written in the same year in order to simplify the studies of wave interactions in ripple tanks.  
 
 ### You and your project
+In physics the trajectories that a body follows are ruled by equations of motion. Depending on the system finding these equations can become very difficult. The Euler-Lagrange equation is useful to find the equation of motion associated to each of the system coordinates based on the potential and kinetic energy. Using energy has a great advantage over Newton's Second Law, as it requires scalars only. Even better is the Kane method, as it does not require to differentiate energy functions, which is handy (not to mention faster) for many body systems.
+
+With this in mind, I wish to increase the speed at which the Kane's and Lagrange's methods generate equations of motion. I would also like to develop a set of interesting examples that not only obtain the equations of motion for many body systems, but also evolve the system in time by numerically solving the differential equations. * POR QUE, * APTITUD As an undergraduate student in physics,
+
+
+The second part of the project might extend beyond the 2 month period given by the Google Summer of Code program, for which I have no problem to continue developing after this time. Right now, for the months spanning the GSoC, I have no other high priority duties, thus you can expect full time dedication to SymPy.
+
+As far as the motivation goes, off course, the possibility of contributing to SymPy, being part of the selected students that get accepted to the Google Summer of Code, brings a great deal of happiness to me. As a physicist, any contribution I give to my field of study is something I find highly rewarding. But thinking of the possibility that the lines of code I write will be useful for someone, even if is only one person, regardless of his level of scholarity, is what excites me the most. As I said, I love popular science.
+
 
 Answer the following questions in your proposal:
 
-    What do you want to achieve?
+    * What do you want to achieve?
 
-    What excites you about this project? Why did you choose it?
+    ** What excites you about this project? Why did you choose it?
 
-    What qualifications do you have to implement your idea? For example, if you are implementing solvers for partial differential equations, what courses have you taken or books have you read on PDEs? Why are you suited to work on this project?
+    * What qualifications do you have to implement your idea? For example, if you are implementing solvers for partial differential equations, what courses have you taken or books have you read on PDEs? Why are you suited to work on this project?
 
-    What have other people done on this idea? Has it been implemented before? (hint: it probably has) Are there any papers or blog posts about it?
-
-    How much time do you plan to invest in the project before, during, and after the Summer of Code? (we expect full time 40h/week during GSoC, but better make this explicit) If you plan to take any vacations over the summer, let us know about it here.
+    ** How much time do you plan to invest in the project before, during, and after the Summer of Code? (we expect full time 40h/week during GSoC, but better make this explicit) If you plan to take any vacations over the summer, let us know about it here.
 
     Please provide a schedule of how this time will be spent on sub-tasks of the project over the period of the summer. While this is only preliminary, we will use it to help monitor your progress throughout the program. Also understand that during the project you will issue weekly progress reports against that plan on your blog.
 
     In planning your project, it is good to note where along the way you could formulate a pull request. These would be points where you can have a self contained and well documented and tested piece of functionality. Doing this at several points during the summer helps to keep branch merges reasonable and code reviews manageable. A big code dump at the end of the summer will likely be hard to review and merge before the project deadline.
 
-    Please do not verbatim copy text from the ideas page, or from other people's discussions about your project, but rewrite it in your own words. If you include any significant text or code from another source in your application, it must be accompanied with a proper citation. All papers or references that you use or plan to use must also be cited. Put all this in a "References" section at the bottom of your application. Copying text without citation is plagiarism and will result in your application being rejected.
-
-You do not need to format your application as a question/answer format for the above questions, but we expect to see all of the above questions answered in your application somewhere.
 ### Patch requirement
-- https://github.com/sympy/sympy/issues/4886
-- https://github.com/sympy/sympy/issues/5090 **
-- https://github.com/sympy/sympy/issues/6388
-- https://github.com/sympy/sympy/issues/6835
-- https://github.com/sympy/sympy/issues/6919 ***
-- https://github.com/sympy/sympy/issues/11197 
+I have uploaded a [pull request](https://github.com/sympy/sympy/pull/16601) to fix issue #14461.
