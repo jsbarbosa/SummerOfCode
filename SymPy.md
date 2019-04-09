@@ -1,7 +1,5 @@
 ## Title
 
-Please use a succinct title that describes your proposal. Do not include the words "GSoC", "2019", or your name in the proposal title on Google's website.
-
 ### The person
 - Full name: Juan Sebastian Barbosa
 - University: Universidad de los Andes, Colombia
@@ -23,27 +21,18 @@ I have used SymPy to find solution to equation systems, process mathematical exp
 ### You and your project
 In physics the trajectories that a body follows are ruled by equations of motion. Depending on the system finding these equations can become very difficult. The Euler-Lagrange equation is useful to find the equation of motion associated to each of the system coordinates based on the potential and kinetic energy. Using energy has a great advantage over Newton's Second Law, as it requires scalars only. Even better is the Kane method, as it does not require to differentiate energy functions, which is handy (not to mention faster) for many body systems.
 
-With this in mind, I wish to increase the speed at which the Kane's and Lagrange's methods generate equations of motion. I would also like to develop a set of interesting examples that not only obtain the equations of motion for many body systems, but also evolve the system in time by numerically solving the differential equations. * POR QUE, * APTITUD As an undergraduate student in physics,
+With this in mind, I wish to increase the speed at which the Kane's and Lagrange's methods generate equations of motion. To do so, . These would be very helpful as many problems, depending on the coordinates -even for few bodies-, have a really long set of equations that can take a while to generate. I would also like to develop a set of interesting examples that not only obtain the equations of motion for many body systems, but also evolve the system in time by numerically solving the differential equations. By doing this a cool set of demonstrations for the `mechanics` submodule, can be used to accompany the documentation, to increase the understanding of the code, and to motivate the study of computational tools to easily represent the physical world. The project might extend beyond the Google Summer of Code program, for which I have no problem to continue developing after this time e.g. to add new features. Right now, for the months spanning the GSoC, I have no other high priority duties, thus you can expect full time dedication to SymPy. 
 
-
-The second part of the project might extend beyond the 2 month period given by the Google Summer of Code program, for which I have no problem to continue developing after this time. Right now, for the months spanning the GSoC, I have no other high priority duties, thus you can expect full time dedication to SymPy.
+As an undergraduate student in physics, I had two classical mechanics related classes, where I learned the Lagrangian method (including Lagrange multipliers for non conservative forces). I also took 3 computational courses all of which use Python. Finally, I am working in my [Thesis project](https://github.com/jsbarbosa/TesisFisica) were I simulate black hole's trajectories in non analytical galactic potentials.
 
 As far as the motivation goes, off course, the possibility of contributing to SymPy, being part of the selected students that get accepted to the Google Summer of Code, brings a great deal of happiness to me. As a physicist, any contribution I give to my field of study is something I find highly rewarding. But thinking of the possibility that the lines of code I write will be useful for someone, even if is only one person, regardless of his level of scholarity, is what excites me the most. As I said, I love popular science.
 
+#### Week 1 - 4
 
-Answer the following questions in your proposal:
-
-    * What do you want to achieve?
-
-    ** What excites you about this project? Why did you choose it?
-
-    * What qualifications do you have to implement your idea? For example, if you are implementing solvers for partial differential equations, what courses have you taken or books have you read on PDEs? Why are you suited to work on this project?
-
-    ** How much time do you plan to invest in the project before, during, and after the Summer of Code? (we expect full time 40h/week during GSoC, but better make this explicit) If you plan to take any vacations over the summer, let us know about it here.
-
+####
     Please provide a schedule of how this time will be spent on sub-tasks of the project over the period of the summer. While this is only preliminary, we will use it to help monitor your progress throughout the program. Also understand that during the project you will issue weekly progress reports against that plan on your blog.
 
     In planning your project, it is good to note where along the way you could formulate a pull request. These would be points where you can have a self contained and well documented and tested piece of functionality. Doing this at several points during the summer helps to keep branch merges reasonable and code reviews manageable. A big code dump at the end of the summer will likely be hard to review and merge before the project deadline.
 
 ### Patch requirement
-I have uploaded a [pull request](https://github.com/sympy/sympy/pull/16601) to fix issue #14461.
+I have uploaded a [pull request](https://github.com/sympy/sympy/pull/16601) to fix a symbol related issue on the geometry submodule `Parabola` #14461.
