@@ -35,7 +35,7 @@ As far as the motivation goes, off course, the possibility of contributing to Sy
 
 #### Final Submission (August 19 - 26)
 
-I would like to make at least 3 pull requests, one at the end of each coding months.
+I would like to make at least 3 pull requests, one at the end of each coding month.
 
 *Please provide a schedule of how this time will be spent on sub-tasks of the project over the period of the summer. While this is only preliminary, we will use it to help monitor your progress throughout the program. Also understand that during the project you will issue weekly progress reports against that plan on your blog.
 
