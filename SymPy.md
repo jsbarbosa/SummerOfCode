@@ -1,4 +1,4 @@
-## Title
+## Sympy optimizations and demostrations for the generation of N body equations of motion
 
 ### The person
 - Full name: Juan Sebastian Barbosa
@@ -27,12 +27,17 @@ As an undergraduate student in physics, I had two classical mechanics related cl
 
 As far as the motivation goes, off course, the possibility of contributing to SymPy, being part of the selected students that get accepted to the Google Summer of Code, brings a great deal of happiness to me. As a physicist, any contribution I give to my field of study is something I find highly rewarding. But thinking of the possibility that the lines of code I write will be useful for someone, even if is only one person, regardless of his level of scholarity, is what excites me the most. As I said, I love popular science.
 
+#### Community Bounding (May 6 - 27)
 #### Week 1 - 4
 
-####
-    Please provide a schedule of how this time will be spent on sub-tasks of the project over the period of the summer. While this is only preliminary, we will use it to help monitor your progress throughout the program. Also understand that during the project you will issue weekly progress reports against that plan on your blog.
+#### Coevaluations (June 24 - 28)
+#### Coevaluations (July 22 - 26)
 
-    In planning your project, it is good to note where along the way you could formulate a pull request. These would be points where you can have a self contained and well documented and tested piece of functionality. Doing this at several points during the summer helps to keep branch merges reasonable and code reviews manageable. A big code dump at the end of the summer will likely be hard to review and merge before the project deadline.
+#### Final Submission (August 19 - 26)
+
+I would like to make at least 3 pull requests, one at the end of each coding months.
+
+*Please provide a schedule of how this time will be spent on sub-tasks of the project over the period of the summer. While this is only preliminary, we will use it to help monitor your progress throughout the program. Also understand that during the project you will issue weekly progress reports against that plan on your blog.
 
 ### Patch requirement
 I have uploaded a [pull request](https://github.com/sympy/sympy/pull/16601) to fix a symbol related issue on the geometry submodule `Parabola` #14461.
