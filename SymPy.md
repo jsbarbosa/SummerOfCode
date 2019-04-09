@@ -5,6 +5,7 @@
 - University: Universidad de los Andes, Colombia
 - Email: juansebastian.coy@gmail.com
 - GitHub: jsbarbosa
+- Bicycle user :)
 
 I am a last year physics and chemistry undergraduate student, with experience on C and Python, as open-source tools for the development of knowledge. Among my passions are: physical computing (code that physically interacts with surroundings e.g: microcontrollers, Raspberry), popular science in which I love to use computer simulations to show that there is plenty of phenomena that can be studied within a computer, software development to simplify everyday tasks and physics itself.
 
@@ -39,10 +40,10 @@ As far as the motivation goes, off course, the possibility of contributing to Sy
 - Phase 1 evaluations (June 24 - 28)
 - Speed improvements are to be expected with the use of C/C++ code. SymEngine opens the possibility to decrease computational times by writing the same Python algorithms in C/C++ with tiny wrappers for Python.
 - Code documentation for the monthly submission. Pull request.
+- Phase 2 evaluations (July 22 - 26)
 
 #### Week 10 - 12 (July 29 - August 16)
 - Examples and demonstrations development, numerically solving a set of generated equations.
-- Phase 2 evaluations (July 22 - 26)
 
 #### Week 13 (August 19 - 26)
 - Code documentation for the **final submission**. Pull request.
