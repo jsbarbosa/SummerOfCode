@@ -10,7 +10,7 @@ I am a last year physics and chemistry undergraduate student, with experience on
 
 ### The programmer
 
-I have been programming for quite a while now. I first started with a Lego Mindstorm, then I moved to Microsoft Excel Macros (VB) at the end of my high school. Later, at college, I used Java during my first semester, and then I met Python throughout my second semester and it was love at first sight. At that very moment, I moved from Windows to Ubuntu and I have not stopped using it ever since; now it's been more than 4 years since then. Afterwards, during my 6th semester in college, I was introduced to C, and although it is not as easy to use or straight forward as Python, it's beauty is found in its power and speed. After that, I became Junior Teacher Assistant for the [Computational Methods class](https://github.com/ComputoCienciasUniandes/MetodosComputacionales) for two years. Computational Methods is a course where we study numerical methods to solve ODEs, PDEs, integrals, derivatives and how to find solutions to equation systems. Most (if not all) of my coding is freely available in [GitHub](http://www.github.com/jsbarbosa). Using this [cool gadget](http://ionicabizau.github.io/github-profile-languages/?user=%2540jsbarbosa) I have found that I code in Python 5 times more than in C. 
+I have been programming for quite a while now. I first started with a Lego Mindstorm, then I moved to Microsoft Excel Macros (VB) at the end of my high school. Later, at college, I used Java during my first semester, and then I met Python throughout my second semester and it was love at first sight. At that very moment, I moved from Windows to Ubuntu and I have not stopped using it ever since; now it's been more than 4 years since then. Afterwards, during my 6th semester in college, I was introduced to C, and although it is not as easy to use or straight forward as Python, it's beauty is found in its power and speed. After that, I became Junior Teacher Assistant for the [Computational Methods class](https://github.com/ComputoCienciasUniandes/MetodosComputacionales) for two years. Computational Methods is a course where we study numerical methods to solve ODEs, PDEs, integrals, derivatives and how to find solutions to equation systems. Most (if not all) of my coding is freely available in [GitHub](http://www.github.com/jsbarbosa). Using this [cool gadget](http://ionicabizau.github.io/github-profile-languages/?user=%2540jsbarbosa) I have found that I code in Python 5 times more than in C.
 
 I think Python is the dream language, it is easy to use, and it is as readable as if it was pseudocode. Python is supported by a huge community -that I have found to be really friendly and ready to help-. Furthermore, it has literally hundred of thousands of modules and libraries that make it the perfect definition of a General Purpose Language. Python is as powerful for statistics as R, it only takes an `import pandas as pd`. With numerical calculations NumPy, and SciPy make it hard for MatLab to take any advantage. And off course symbolic calculations are not unique to Mathematica, thanks to the highly advanced SymPy module, from which many people around the world are thankful for. And best of all, Python does all of these for free, opening a universe of endless possibilities for which anyone, can code anywhere.
 
@@ -29,25 +29,23 @@ As far as the motivation goes, off course, the possibility of contributing to Sy
 
 #### Community Bounding (May 6 - 27)
 #### Week 1 - 3 (May 27 - June 14)
-    Writing code optimizations for the Kane's and Lagrange methods in the `mechanics` submodule. To do so, both, mathematical and physical simplifications are expected. Improvements are to be quantified by benchmarking the new code with the old one.
+- Writing code optimizations for the Kane's and Lagrange methods in the `mechanics` submodule. To do so, both, mathematical and physical simplifications are expected.
+- Improvements are to be quantified by benchmarking the new code with the old one.
 
 #### Week 4 (June 17 - 21)
-    Code documentation for the monthly submission. Pull request.
+- Code documentation for the monthly submission. Pull request.
 
-#### Week 5 - 9 (June 24 - July 19)
-    Speed improvements are to be expected with the use of C/C++ code. SymEngine opens the possibility to decrease computational times by writing the same Python algorithms in C/C++ with tiny wrappers for Python.
+#### Week 5 - 9 (June 24 - July 26)
+- Phase 1 evaluations (June 24 - 28)
+- Speed improvements are to be expected with the use of C/C++ code. SymEngine opens the possibility to decrease computational times by writing the same Python algorithms in C/C++ with tiny wrappers for Python.
+- Code documentation for the monthly submission. Pull request.
 
-    Phase 1 evaluations (June 24 - 28)
+#### Week 10 - 12 (July 29 - August 16)
+- Examples and demonstrations development, numerically solving a set of generated equations.
+- Phase 2 evaluations (July 22 - 26)
 
-    Code documentation for the monthly submission. Pull request.
-
-#### Week 10, 14 (July 22 - August 16)
-    Examples and demonstrations development, numerically solving a set of generated equations.
-
-    Phase 2 evaluations (July 22 - 26)
-
-#### Week 15 (August 19 - 26)
-    Code documentation for the **final submission**. Pull request.
+#### Week 13 (August 19 - 26)
+- Code documentation for the **final submission**. Pull request.
 
 I would like to make at least 3 pull requests, one at the end of each coding month.
 
