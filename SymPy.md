@@ -41,3 +41,7 @@ I would like to make at least 3 pull requests, one at the end of each coding mon
 
 ### Patch requirement
 I have uploaded a [pull request](https://github.com/sympy/sympy/pull/16601) to fix a symbol related issue on the geometry submodule `Parabola` #14461.
+
+### References for the project
+- Classical Mechanics - John R. Taylor
+- Computational Physics: Problem Solving with Python - Rubin H. Landau, Cristian C. Bordeianu, Manuel J Páez
